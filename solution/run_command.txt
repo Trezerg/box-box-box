@@ -1,0 +1,1 @@
+/home/sheneth/Downloads/box-box-box/.venv/bin/python3 solution/race_simulator.py
