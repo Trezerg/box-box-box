@@ -1,26 +1,23 @@
-# Add patterns for files you don't want to commit
-# Example patterns below - uncomment and modify as needed:
+# Python Virtual Environments
+.venv/
+venv/
+env/
 
-# Python
-# __pycache__/
-# *.pyc
-# .venv/
-# venv/
+# Python Cache & Compiled Files
+__pycache__/
+*.pyc
+*.pyo
 
-# Node.js
-# node_modules/
-# package-lock.json
+# IDE & Editor Files
+.vscode/
+.idea/
 
-# Java
-# *.class
-# target/
-# .gradle/
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
 
-# Build artifacts
-# build/
-# dist/
-# out/
+# Large ML Model Artifacts (Competitor files)
+*.pkl
+*.h5
 
-# IDE files
-# .vscode/
-# .idea/
+# Local Logs
+calibration_log.txt
